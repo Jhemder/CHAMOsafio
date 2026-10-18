@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Explora los mods incluidos en CHAMOsafio para Minecraft 1.19.2 y descarga el launcher de Arbacs Studio.">
+  <meta name="theme-color" content="#080f1b">
+  <title>CHAMOsafio · Modpack de Minecraft</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="CHAMOsafio, inicio"><span class="brand-mark">✿</span><span>CHAMO<span class="brand-accent">safio</span></span></a>
+    <nav aria-label="Navegación principal"><a href="#mods">Mods</a><a href="#descarga">Launcher</a><a href="#acerca">Acerca de</a></nav>
+    <a class="top-download" href="#descarga">Descargar <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="online-dot"></span> MODPACK DE MINECRAFT · FORGE 1.19.2</span>
+        <h1>Un mundo distinto<br><span>en cada aventura.</span></h1>
+        <p>Explora nuevas criaturas, estructuras, dimensiones y máquinas. Conoce los mods del pack y prepara tu instalación con Arbacs Studio.</p>
+        <div class="hero-actions"><a class="button primary" href="#mods">Explorar los mods <span>↓</span></a><a class="button secondary" href="#descarga">Obtener el launcher <span>↗</span></a></div>
+        <div class="hero-meta"><span>✦ <b id="heroModCount">112</b> mods y recursos listos en el launcher</span><span>◈ Java 17 recomendado</span><span>⌁ Forge 43.5.0 · Minecraft 1.19.2</span></div>
+      </div>
+      <div class="hero-art" aria-label="Ilustración de un paisaje de fantasía pixelado" role="img">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="moon"></div><div class="mountain mountain-back"></div><div class="mountain mountain-front"></div>
+        <div class="island"><span class="tree tree-one"></span><span class="tree tree-two"></span><span class="tower"></span></div>
+        <div class="art-caption"><span class="caption-pin"></span><span><b>Tu próxima aventura</b><small>Mundos y estructuras por descubrir</small></span></div>
+      </div>
+    </section>
+
+    <section class="catalog-section" id="mods">
+      <div class="section-heading"><div><span class="eyebrow">CATÁLOGO DEL MODPACK</span><h2>Encuentra tu próximo favorito.</h2><p>Busca por nombre, filtra por tipo y mira si el mod ya viene en el launcher o si falta incorporarlo.</p></div><div class="catalog-total"><strong id="catalogCount">113</strong><span>mods y extras</span></div></div>
+      <div class="catalog-controls"><label class="search-box"><span aria-hidden="true">⌕</span><input id="searchMods" type="search" placeholder="Buscar un mod…" autocomplete="off" aria-label="Buscar mods"></label><label class="filter-label"><span>Mostrar</span><select id="categoryFilter" aria-label="Filtrar por categoría"><option value="all">Todas las categorías</option></select></label></div>
+      <div class="mod-grid" id="modGrid" aria-live="polite"><div class="catalog-loading">Cargando catálogo de mods…</div></div>
+      <p class="catalog-note">“Disponible en launcher” descarga el JAR del paquete. “Pendiente” abre la búsqueda del proyecto en CurseForge; confirma Minecraft 1.19.2 y Forge antes de instalar. Los paquetes de recursos van en <span class="inline-tag">resourcepacks</span>, no en mods. Las librerías marcadas como <span class="inline-tag">Librería</span> suelen ser necesarias para que otros mods funcionen.</p>
+    </section>
+
+    <section class="download-section" id="descarga">
+      <div class="download-glow"></div>
+      <div class="download-content"><span class="eyebrow">ARBACS STUDIO · WINDOWS</span><h2>Prepara el modpack<br>en unos pasos.</h2><p>El launcher ayuda a instalar, actualizar y desactivar mods. Descarga la versión portable desde la publicación del proyecto.</p><a class="button light" href="https://github.com/Jhemder/CHAMOsafio/releases/latest/download/ArbacsStudio-1.4.0-portable.exe" target="_blank" rel="noopener noreferrer">Descargar launcher <span>↧</span></a><small>Necesitas Minecraft Java Edition, Forge 1.19.2 y conexión a internet para descargar los mods.</small></div>
+      <div class="download-card"><div class="download-icon">↓</div><div><b>Arbacs Studio Launcher 1.4.0</b><span>Windows · portable · Minecraft 1.19.2</span></div><span class="download-arrow">↗</span></div>
+    </section>
+
+    <section class="about-section" id="acerca"><div><span class="eyebrow">HECHO PARA JUGAR EN GRUPO</span><h2>Más que una lista de mods.</h2></div><p>CHAMOsafio combina exploración, construcción, combate y mejoras de calidad de vida. Para jugar en un servidor modificado, todos deben tener versiones compatibles del modpack y el servidor debe usar los mods requeridos.</p></section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#inicio"><span class="brand-mark">✿</span><span>Arbacs Studio</span></a><span>CHAMOsafio · Minecraft Forge 1.19.2</span><a href="https://github.com/Jhemder/CHAMOsafio" target="_blank" rel="noopener noreferrer">Proyecto en GitHub ↗</a></footer>
+  <script src="app.js" defer></script>
+</body>
+</html>
