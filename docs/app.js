@@ -71,7 +71,7 @@ function renderMods() {
 search.addEventListener("input", renderMods);
 category.addEventListener("change", renderMods);
 
-fetch("mods.json")
+fetch("mods.json?v=1.3.0")
   .then(response => {
     if (!response.ok) throw new Error(`No se pudo leer el catálogo (${response.status}).`);
     return response.json();
