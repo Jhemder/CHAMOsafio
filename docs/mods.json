@@ -1353,5 +1353,29 @@
     "audience": "Cliente y servidor",
     "downloadUrl": "https://github.com/Jhemder/CHAMOsafio/releases/download/v1.1.0/YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar",
     "sha256": "d234a6eb1ea8850c8acd0e2f2280304e50817d96718773c5257879e16f14d72f"
+  },
+  {
+    "file": "chococraft-1.19.2-forge-0.6.12.jar",
+    "asset": "chococraft-1.19.2-forge-0.6.12.jar",
+    "modId": "chococraft",
+    "name": "Chococraft",
+    "category": "Criaturas",
+    "description": "Añade chocobos de distintos colores que puedes criar y montar para recorrer el mundo.",
+    "status": "Disponible en launcher",
+    "audience": "Cliente y servidor",
+    "downloadUrl": "https://cdn.modrinth.com/data/bPTEaC7v/versions/mRqjB7mW/chococraft-1.19.2-forge-0.6.12.jar",
+    "sha256": "1f3a8200db73dbad13a1c6eec771834c2c3194988247c4737bfbfd412d04024f"
+  },
+  {
+    "file": "pollen-forge-2.1.0.jar",
+    "asset": "pollen-forge-2.1.0.jar",
+    "modId": "pollen",
+    "name": "Pollen",
+    "category": "Librería",
+    "description": "Librería para mods de Minecraft; se incluye como mod independiente en este paquete.",
+    "status": "Disponible en launcher",
+    "audience": "Cliente y servidor",
+    "downloadUrl": "https://edge.forgecdn.net/files/4685/982/pollen-forge-2.1.0.jar",
+    "sha256": "b4fecf3d64634081538a1deae7351200a2f2210118e8e11d9d20553ea04230ad"
   }
 ]
